@@ -15,8 +15,6 @@ The output filename will be the same as the input filename plus ".kml".
 
 ### Examples
 
-<code>python osm2kml.py petrol_stations.osm</code> - No folders, _name_ and _description_ tags from OSM file included by default.
-
-<code>python osm2kml.py petrol_stations.osm brand branch opening_hours</code> - _Brand_ tag determines folder, _branch_ tag as name, _opening_hours_ as description.
-
-<code>python osm2kml.py petrol_stations.osm "" branch brand opening_hours</code> - No folders, _branch_ tag as name, _brand_ and _opening_hours_ as description.
+* <code>python osm2kml.py petrol_stations.osm</code> - No folders, _name_ and _description_ tags from OSM file included by default.
+* <code>python osm2kml.py petrol_stations.osm brand branch opening_hours</code> - _Brand_ tag determines folder, _branch_ tag as name, _opening_hours_ as description.
+* <code>python osm2kml.py petrol_stations.osm "" branch brand opening_hours</code> - No folders, _branch_ tag as name, _brand_ and _opening_hours_ as description.
