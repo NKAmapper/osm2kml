@@ -1,17 +1,17 @@
 # osm2kml
-Convert nodes from OSM to KML file.
+Convert nodes from OSM to KML.
 
 ### Usage
 
 <code>python osm2kml.py [input_filename] [folder_tag] [name_tag] [description_tags]</code>
 
 Parameters:
-* _input_filename_: Name of OSM input file.
-* _folder_tag_: Tag in OSM file which will be used to group nodes into KML folders (optional, empty value "" permitted).
-* _name_tag_: Tag in OSM file which will be used as name tag in KML (default: _name_, empty value "" permitted).
-* _description_tags_: List of tags in OSM which will be included in description tag in KML (default: _description, empty value "" permitted).
+* _input_filename_: Name of the OSM input file.
+* _folder_tag_: Tag in the OSM file which will be used to group nodes into KML folders (optional, empty value "" permitted).
+* _name_tag_: Tag in the OSM file which will be used as name tag in KML (default: _name_, empty value "" permitted).
+* _description_tags_: List of tags in the OSM file which will be included in the "description" tag in the KML (default: _description, empty value "" permitted).
 
-The output filename will be the same as the input filename plus ".kml".
+The output filename part is taken from the input filename, and the extention is ".kml".
 
 ### Examples
 
